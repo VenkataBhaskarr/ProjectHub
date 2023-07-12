@@ -1,0 +1,28 @@
+{
+  "name": "sveltetest",
+  "private": true,
+  "version": "0.0.0",
+  "type" : "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@smui/button": "^7.0.0-beta.14",
+    "@smui/card": "^7.0.0-beta.14",
+    "@smui/icon-button": "^7.0.0-beta.14",
+    "@sveltejs/vite-plugin-svelte": "^2.0.4",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "svelte": "^3.58.0",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.3.9"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "axios": "^1.4.0",
+    "firebase": "^9.23.0",
+    "svelte-routing": "^1.11.0"
+  }
+}

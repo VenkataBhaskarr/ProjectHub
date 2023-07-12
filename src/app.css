@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+button{
+  background-color: #f5f5f5;
+  border: 1px solid #f5f5f5;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: deeppink;
+  transition-delay: 100ms;
+}
+input{
+  border: 2px solid royalblue;
+}
